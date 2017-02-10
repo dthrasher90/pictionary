@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    font-family: serif;
+}
+
+body {
+    color: #1E2835;
+    background-color: peru;
+    font-family: serif;
+    font-size: 18px;
+}
+
+h1 {
+    background-color: papayawhip;
+    margin: 0 0 20px 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+#messages {
+    font-size: 0.5em;
+}
+
+#playerList {
+    font-size: 0.6em;
+}
+
+#top-message {
+    text-align: center;
+    padding: 10px;
+}
+
+canvas {
+    width: 800px;
+    height: 600px;
+    border: 2px solid black;
+    display: block;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.container{
+    display: flex;
+}
+.fixed{
+    width: 1000px;
+}
+.flex-item{
+    flex-grow: 1;
+}
